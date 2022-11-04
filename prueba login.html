@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="STYLELOGIN.css">
+<title>SCAI</title>
+</head>
+
+<body>
+  <center>
+    <div id="envoltura">
+      <div id="contenedor">
+        <div id="titulo">
+          <table>
+
+<h1>Ingresa Tus Datos</h1> 
+</div>
+<div id="cuerpo">
+</table>
+<form name="login"> 
+  <center>
+     <table width="390" border="0"> 
+       <tr> 
+         <th scope="row"><h2>Usuario</h2></th> 
+         <td><span class="cnt"> 
+           <input name="usuario" type="text" class="Input" value="" size="20" /> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th height="33" scope="row"><h2>Clave</h2></th> 
+         <td><span class="cnt"> 
+           <input name="password" type="password" class="Input" value="" size="20" /> 
+         </span></td> 
+         <td><span class="cnt"> 
+           <input value="Entrar" target="_parent" onclick="Login()" type="button" class="boton"/> 
+         </span></td> 
+       </tr> 
+       <tr> 
+         <th scope="row"><input type="reset" name="Borrar" id="Borrar" value="Reset" class="boton" /></th> 
+       </tr> 
+     </table> 
+</form> 
+
+<script language="JavaScript"> 
+function Login(){ 
+var done=0; 
+var usuario=document.login.usuario.value; 
+var password=document.login.password.value; 
+if (usuario=="RS-SOFT" && password=="2019") { 
+window.location="prueba.html"; 
+} else{
+  alert("DATOS INCORRECTOS. REINGRESE TODO.")
+}
+
+} 
+        </script> 
+</center> 
+<script language="Javascript"> 
+<!-- Begin 
+document.oncontextmenu = function(){return false} 
+// End --> 
+</script>
+</body>
+</html>

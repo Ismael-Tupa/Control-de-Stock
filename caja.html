@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>SCAI</title>
+<meta charset="UTF-8">
+
+<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+  <nav class = "navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#"> <font style = "vertical-align: heredar;">Tienda <font style = "vertical-align: heredar;"> </font> </font> </a>
+  <button class = "navbar-toggler" type = "button" data-toggle = "collapse" data-target = "# navbarColor01" aria-controls = "navbarColor01" aria-extended = "false" aria-label = "Navegación de palanca ">
+    <span class = "navbar-toggler-icon"> </span>
+  </button>
+
+  <div class = "collapse navbar-collapse" id = "navbarColor01">
+    <ul class = "navbar-nav mr-auto">
+      <li class = "nav-item">
+        <a class="nav-link" href="prueba.html"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;">Inicio</font></font> </a>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="registrosP.html"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;">Registrar Prendas </font></font> </a>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="registrarV.html"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;">Registrar Ventas </font></font> </a>
+      </li>
+      <li class = "nav-item">
+        <a class="nav-link" href="caja.html"> <font style = "vertical-align: heredar;"> <font style = "vertical-align: heredar;"> Caja </font> </font> </a>
+      </li>
+      <li class = "nav-item">
+        
+   </div>
+  </nav>
+  <div class="container">
+      <!--APLICACIÓN-->
+      <div id="App" class="row pt-5">
+          <!--<h2>Tienda de Ropa</h2>
+          <br>-->
+          <div class="col-md-6">
+            <div class="card">
+            	<strong><h3> Cerrar caja</h3></strong>
+            	<p><input type="button" name="stopC" id="stopC" value="Hoy" class="btn btn-primary btn block" onclick="mostrarCaja()"></p>
+            	<div class='card text-center mb-4'>
+          		    <div class='card-body'>
+          		        <div id="resultadoHC">Resultado</div>
+          	        </div>
+                </div>
+            </div>          
+          </div>
+
+          <div class="col-md-6">
+          	<h3>Historial</h3>
+          	<div id='cajadatos'></div>
+          </div>        
+        </div>
+    </div>
+    <script type="text/javascript" src="caja.js"></script>
+</body>
+</html>
